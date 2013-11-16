@@ -8,16 +8,17 @@ mixin feed-item(item,i,namespace)
 				a(href='/act/detail/10')
 					h3.title=item.name
 				div.left
-					span Distance: 
-					span=item.distance
-					span miles
-					em=item.whenFormatted()
+					span Distance: #{item.distance} miles
+					br
+					em=item.when
 				div.right
 					button.btn.btn-info(data-parent="#feed"+namespace,data-toggle="collapse",data-target="#"+item._id+namespace+" .feed-map") Where
 					a.btn.btn-default(href="/act/commit/10") Commit
 		div.row.col-sm-12.collapse.feed-map(data-parent="#feed"+namespace)
 			div.map-canvas.col-sm-12
-				include map-test
+				div.well
+					a.btn.btn-info.right.directions(target='_blank',href='https://maps.google.com/maps?hl=en&q='+encodeURIComponent(item.where.address)) Get Directions
+					span=item.where.address
 mixin feed(acts,namespace)
 	- namespace = namespace || "";
 	ul.feed.list-unstyled(id="feed"+namespace)

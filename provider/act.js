@@ -33,9 +33,9 @@ exports.all = function(fn){
 	});
 }
 
-exports.find = function(query,fn){
+exports.find = function(id,fn){
 	acts(function(err,data){
-		fn(err,data[0]);
+		fn(err,data[id]);
 	});
 }
 
