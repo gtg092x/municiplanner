@@ -54,7 +54,14 @@ html,body{
 	padding-right:3px;
 	.feed-item{
 		.title{margin-top:0;}
-		img{width:97%;border:solid 3px #eee;}
+		.img-wrapper{width:97%;max-height:100px;display:inline-block;overflow:hidden;}
+		img{
+			border:solid 3px #eee;width:100%;
+			@media (max-width: $container_width){
+			
+			}
+		
+		}
 		 
 		padding-top:8px;
 		padding-bottom:8px;

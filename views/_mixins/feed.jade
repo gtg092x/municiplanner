@@ -1,15 +1,21 @@
-mixin feed-item(item,i)
-	li.feed-item.row
-		div.col-xs-3
-			img(src=item.media.src)
-		div.col-xs-9
-			h3.title=item.name
-			p.left
-				span=item.distance
-				em=item.whenFormatted()
-			div.right
-				a.btn.btn-default Commit
-mixin feed(acts)
-	ul.feed.list-unstyled
+mixin feed-item(item,i,namespace)
+	li.feed-item.row(id=item._id+namespace)
+		div.row.col-sm-12
+			div.col-sm-3
+				a.img-wrapper
+					img(src=item.media.src)
+			div.col-sm-9
+				h3.title=item.name
+				p.left
+					span=item.distance
+					em=item.whenFormatted()
+				div.right
+					button.btn.btn-info(data-parent="#feed"+namespace,data-toggle="collapse",data-target="#"+item._id+namespace+" .feed-map") Where
+					a.btn.btn-default Commit
+		div.row.col-sm-12.collapse.feed-map(data-parent="#feed"+namespace)
+			div.map-canvas.col-sm-12
+mixin feed(acts,namespace)
+	- namespace = namespace || "";
+	ul.feed.list-unstyled(id="feed"+namespace)
 		- each item,i in acts
-			+feed-item(item,i)
+			+feed-item(item,i,namespace)
