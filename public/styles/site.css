@@ -12,42 +12,54 @@
   font-style: normal;
   font-weight: normal;
   line-height: 1;
+  margin: 0px 10px;
 }
 
-/* line 27, scss/site.scss */
+/* line 28, scss/site.scss */
 .navbar-default {
-  background-color: #eeeeee;
+  background-color: #111111;
 }
 
-/* line 31, scss/site.scss */
+/* line 32, scss/site.scss */
 .navbar-default .navbar-brand {
-  color: #222222;
+  color: #eeeeee;
 }
 
-/* line 35, scss/site.scss */
-h1, h2, h3, h4, #brand {
+/* line 36, scss/site.scss */
+h1, h2, h3, h4 {
   font-family: 'Open Sans';
   font-weight: 300;
+}
+
+/* line 38, scss/site.scss */
+#brand {
+  font-family: "Lora", "Open Sans";
+  font-weight: bold;
+}
+
+/* line 44, scss/site.scss */
+.green {
+  color: #87CC81;
 }
 
 /*-------------------
 	Bootstrap Override
 ---------------------*/
-/* line 43, scss/site.scss */
+/* line 50, scss/site.scss */
 .clearfloat {
   clear: both;
   width: 100%;
   font-size: 1px;
 }
 
-/* line 50, scss/site.scss */
+/* line 57, scss/site.scss */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* line 55, scss/site.scss */
+/* line 62, scss/site.scss */
 html, body {
   min-height: 100%;
 }
@@ -58,55 +70,55 @@ html, body {
 /*-------------------
 	Feed
 ---------------------*/
-/* line 67, scss/site.scss */
+/* line 74, scss/site.scss */
 .feed {
   padding-left: 3px;
   padding-right: 3px;
 }
-/* line 70, scss/site.scss */
+/* line 77, scss/site.scss */
 .feed .feed-item {
   padding-top: 8px;
   padding-bottom: 8px;
   border-top: solid 1px #ddd;
 }
-/* line 71, scss/site.scss */
+/* line 78, scss/site.scss */
 .feed .feed-item .title {
   margin-top: 0;
 }
-/* line 72, scss/site.scss */
+/* line 79, scss/site.scss */
 .feed .feed-item .img-wrapper {
   width: 97%;
   max-height: 100px;
   display: inline-block;
   overflow: hidden;
 }
-/* line 73, scss/site.scss */
+/* line 80, scss/site.scss */
 .feed .feed-item img {
   border: solid 3px #eee;
   width: 100%;
 }
-/* line 80, scss/site.scss */
+/* line 88, scss/site.scss */
 .feed .feed-item .left {
   float: left;
 }
-/* line 81, scss/site.scss */
+/* line 89, scss/site.scss */
 .feed .feed-item .right {
   float: right;
 }
-/* line 82, scss/site.scss */
+/* line 90, scss/site.scss */
 .feed .feed-item button {
   margin: 0 5px;
 }
-/* line 83, scss/site.scss */
+/* line 91, scss/site.scss */
 .feed .feed-item button:last-child {
   margin-right: 0px;
 }
-/* line 88, scss/site.scss */
+/* line 96, scss/site.scss */
 .feed .feed-item:first-child {
   border-top: none;
   padding-top: 0;
 }
-/* line 89, scss/site.scss */
+/* line 97, scss/site.scss */
 .feed .feed-item:last-child {
   padding-bottom: 0;
 }
@@ -117,7 +129,7 @@ html, body {
 /*-------------------
 	Foot
 ---------------------*/
-/* line 105, scss/site.scss */
+/* line 113, scss/site.scss */
 footer {
   background-color: #f3f3f3;
   box-sizing: border-box;
@@ -127,29 +139,29 @@ footer {
   overflow: auto;
   padding-top: .2em;
 }
-/* line 108, scss/site.scss */
+/* line 116, scss/site.scss */
 footer ul {
   list-style: none;
 }
-/* line 113, scss/site.scss */
+/* line 121, scss/site.scss */
 footer.row {
   margin-left: 0px;
   margin-right: 0px;
 }
-/* line 120, scss/site.scss */
+/* line 128, scss/site.scss */
 footer .left {
   text-align: left;
 }
-/* line 121, scss/site.scss */
+/* line 129, scss/site.scss */
 footer .right {
   text-align: right;
 }
-/* line 124, scss/site.scss */
+/* line 132, scss/site.scss */
 footer > ul {
   padding-top: 10px;
 }
 @media (max-height: 500px) {
-  /* line 105, scss/site.scss */
+  /* line 113, scss/site.scss */
   footer {
     /*position:static;*/
   }

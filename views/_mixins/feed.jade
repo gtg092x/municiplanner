@@ -17,6 +17,7 @@ mixin feed-item(item,i,namespace)
 					a.btn.btn-default(href="/act/commit/10") Commit
 		div.row.col-sm-12.collapse.feed-map(data-parent="#feed"+namespace)
 			div.map-canvas.col-sm-12
+				include map-test
 mixin feed(acts,namespace)
 	- namespace = namespace || "";
 	ul.feed.list-unstyled(id="feed"+namespace)
