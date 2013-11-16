@@ -1,28 +1,390 @@
 {
-	"acts":[
-		 	{
-		 		"name":"Soup Kitchen",
-		 		
-		 		"media":{"src":"http://clatl.com/imager/imagine-transit-here-the-path-of-the-beltline-seen-here-crossing-ponce-de/b/original/1281751/47b6/news_Feature1-1_12.jpg"},
-		 		"distance":10,
-		 		
-		 		"where":{
-		 			"geo": [33.745487,-84.368434],
-		 			"address":"101 Yeah Boy Drive"
-		 		},
-		 		"tags":["volunteering","charity"]
-		 	},
-		 	{
-		 		"name":"City Council Meeting",
-		 		
-		 		"media":{"src":"http://clatl.com/imager/imagine-transit-here-the-path-of-the-beltline-seen-here-crossing-ponce-de/b/original/1281751/47b6/news_Feature1-1_12.jpg"},
-		 		"distance":10,
-		 		
-		 		"where":{
-		 			"geo": [33.745487,-84.368434],
-		 			"address":"101 Yeah Boy Drive"
-		 		},
-		 		"tags":["government","council"]
-		 	}
-		]
+    "acts": [
+        {
+            "name": "Special Election (to fill vacancies and propose questions)",
+            "description": "Registration deadline: February 19, 2013*",
+            "when": "2013-03-19T04:00:00.000Z",
+            "media": {
+                "src": "http://images.huffingtonpost.com/2012-10-02-http%3A-www.google.com-imgres%3Fimgurl%3Dhttp%3A-www.randishade.com-UserFiles-vote.jpg%26imgrefurl%3Dhttp%3A-www.randishade.com-212-vote.htm%26h%3D1044%26w%3D1050%26sz%3D265%26tbnid%3D3vmmZTFVkvHaOM%3A%26tbnh%3D82%26tbnw%3D82%26zoom%3D1%26usg%3D__WJf1MgGykMGSKtmGxVQv1DzXbMQ%3D%26docid%3DypEX5_LJAM4ucM%26sa%3DX%26ei%3DQ4FqUPaIDJK89QTRioD4Ag%26ved%3D0CCYQ9QEwAA%26dur%3D4598-VoteButton.jpg"
+            },
+            "where": {
+                "address": "Your Polling Location"
+            },
+            "_id": "634ad9884f78718aafb11bf5dfe0786d0425d65a"
+        },
+        {
+            "name": "Runoff Date",
+            "description": "Registration deadline: February 19, 2013*",
+            "when": "2013-04-16T04:00:00.000Z",
+            "media": {
+                "src": "http://www.iac15.org/wp-content/uploads/2013/08/ballot.jpg"
+            },
+            "where": {
+                "address": "Your Polling Location"
+            },
+            "_id": "39b5940be13335b73df8e370f6d284fead1a572b"
+        },
+        {
+            "name": "Special Election (to fill vacancies only)",
+            "description": "Registration deadline: May 20, 2013",
+            "when": "2013-06-18T04:00:00.000Z",
+            "media": {
+                "src": "http://www.iac15.org/wp-content/uploads/2013/08/ballot.jpg"
+            },
+            "where": {
+                "address": "Your Polling Location"
+            },
+            "_id": "371680e6b5d0ff286ec379a7030f47deb7e2c021"
+        },
+        {
+            "name": "Special Election (to fill vacancies only)",
+            "description": "Registration deadline: August 19, 2013",
+            "when": "2013-09-17T04:00:00.000Z",
+            "media": {
+                "src": "http://www.iac15.org/wp-content/uploads/2013/08/ballot.jpg"
+            },
+            "where": {
+                "address": "Your Polling Location"
+            },
+            "_id": "cd9e62eaf021d87fde8aa5b733eaf6ed0abb4fcb"
+        },
+        {
+            "name": "Runoff Date",
+            "description": "Registration deadline: August 19, 2013",
+            "when": "2013-10-15T04:00:00.000Z",
+            "media": {
+                "src": "http://clatl.com/binary/84e9/1343710163-july-31-2012-elections-atlanta.jpeg"
+            },
+            "where": {
+                "address": "Your Polling Location"
+            },
+            "_id": "51ee9236d4e795a1deee227804104defdbd8de25"
+        },
+        {
+            "name": "General Election/Special Election (to fill vacancies and propose questions)",
+            "description": "Registration deadline: October 7, 2013",
+            "when": "2013-11-05T05:00:00.000Z",
+            "media": {
+                "src": "http://images.huffingtonpost.com/2012-10-02-http%3A-www.google.com-imgres%3Fimgurl%3Dhttp%3A-www.randishade.com-UserFiles-vote.jpg%26imgrefurl%3Dhttp%3A-www.randishade.com-212-vote.htm%26h%3D1044%26w%3D1050%26sz%3D265%26tbnid%3D3vmmZTFVkvHaOM%3A%26tbnh%3D82%26tbnw%3D82%26zoom%3D1%26usg%3D__WJf1MgGykMGSKtmGxVQv1DzXbMQ%3D%26docid%3DypEX5_LJAM4ucM%26sa%3DX%26ei%3DQ4FqUPaIDJK89QTRioD4Ag%26ved%3D0CCYQ9QEwAA%26dur%3D4598-VoteButton.jpg"
+            },
+            "where": {
+                "address": "Your Polling Location"
+            },
+            "_id": "0039176437f5e9f547678b72e8119452df6077d4"
+        },
+        {
+            "name": "Atlanta City Council - CoC Briefing",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room 1, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-18T14:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "ac81a8e1d8ade9a7c1e2d383504afee794697a1f"
+        },
+        {
+            "name": "Atlanta City Council - Chairs Meeting",
+            "description": "\n",
+            "where": {
+                "address": "Large Conference Room, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-18T14:30:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "4f2bcecfcb5cb72f71aa94f99c4f4c946c481d95"
+        },
+        {
+            "name": "Atlanta City Council - Committee on Council",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room 2, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-18T16:15:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "1f8ecdb1521ff628120550a8be874d5871787cf2"
+        },
+        {
+            "name": "Atlanta City Council - Full Council",
+            "description": "\n",
+            "where": {
+                "address": "Council Chambers, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-18T18:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/ac/images/backgrounds/resourcepanel.jpg"
+            },
+            "_id": "ca89ef7781896e18765d1b85b66c08147db08c02"
+        },
+        {
+            "name": "Atlanta City Council - Housing Study Work Session ",
+            "description": "The Community Development/Human Resources Committee will hold a Work Session on the Housing Study (The Strategic Community Investment Report) conducted by the Department of Planning and Community Development on Wednesday, November 20, 2013 at 12:00 pm in Committee Room 2. The Office of Housing will provide a presentation on the Strategic Community Investment Report.  Information on the report is accessible to the public and may be found using the following link:  http://ditweb.atlantaga.gov/sci/sci7.pdf\n\nThe work session will be open to the public, but there will be no public comment or official action will be taken.\n\nThe Department of Planning and Community Development will provide lunch to Councilmembers.  Please confirm your attendance and lunch orders no later than Thursday, November 14, 2013.  Let me know should you have any questions.\n",
+            "where": {
+                "address": "55 Trinity Ave, Atlanta, GA 30303"
+            },
+            "when": "2013-11-20T17:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/ac/images/backgrounds/resourcepanel.jpg"
+            },
+            "_id": "f3854d7dd675c65a0a5bbc724d46255a93261c27"
+        },
+        {
+            "name": "Atlanta City Council - Special Called Full Council meeting",
+            "description": "Please accept this communication as official notice of a Special Called meeting on November 21, 2013, at 10:00am. I have asked the members of Council to convene in the Council Chamber to consider the following:  \nA RESOLUTION SUPPLEMENTING THAT BOND ORDINANCE  11-O-0152 ADOPTED BY THE ATLANTA CITY COUNCIL ON FEBRUARY 21, 2011 AND APPROVED BY THE MAYOR ON MARCH 2, 2011, AND AS AMENDED BY ORDINANCE 11-O-1680 ADOPTED ON NOVEMBER 21, 2011 AND APPROVED NOVEMBER 30, 2011 TO, AMONG OTHER THINGS, PROVIDE FOR THE ISSUANCE AND SALE BY THE CITY OF ATLANTA OF ITS TAX ALLOCATION BONDS (PERRY BOLTON PROJECT), SERIES 2013, IN AN AMOUNT NOT TO EXCEED THIRTY-FIVE MILLION DOLLARS $35,000,000.00 (THE “BONDS”), WITHIN CERTAIN PARAMETERS PREVIOUSLY ESTABLISHED BY THE CITY, INCLUDING THE ORIGINAL AGGREGATE PRINCIPAL AMOUNT, INTEREST RATES, MATURITY AMOUNTS, MATURITY DATES, REDEMPTION PROVISIONS, ANNUAL SINKING FUND INSTALLMENTS, AND THE DEBT SERVICE RESERVE REQUIREMENT WITH RESPECT THERETO; RATIFY CERTAIN PRIOR ACTIONS OF THE CITY COUNCIL AND CERTAIN OFFICERS AND AGENTS OF THE CITY WITH RESPECT TO THE ISSUANCE AND SALE OF THE BONDS; AUTHORIZE AND APPROVE THE PREPARATION, USE AND DISTRIBUTION OF A FINAL OFFICIAL STATEMENT IN CONNECTION WITH THE OFFER AND SALE OF THE FOREGOING DESCRIBED BONDS; PROVIDE AN EFFECTIVE DATE; AND FOR OTHER PURPOSES.\n",
+            "where": {
+                "address": "Council Chambers, 555 Trinity Ave, Atlanta, GA 30303"
+            },
+            "when": "2013-11-21T15:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "b205f753cf7a5ecc07b749a101a7ec06cba6f06d"
+        },
+        {
+            "name": "Atlanta City Council - FE Briefing",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room #1, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-25T14:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "410302ccb716dd9b6096c266508959c3c4d9471a"
+        },
+        {
+            "name": "Atlanta City Council - Finance Committee ",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room 2, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-25T16:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/ac/images/backgrounds/resourcepanel.jpg"
+            },
+            "_id": "01cff9823d5d0b770c6b31460f1c8a21b088a8d7"
+        },
+        {
+            "name": "Atlanta City Council - T Briefing",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room #1, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-25T19:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "465be09e1a0dfa7a1fe23406615ea24f28fb2b4a"
+        },
+        {
+            "name": "Atlanta City Council - Transportation Committee",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room 2, 55 Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-25T20:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "28659864ed29d87be4173a986190ee5bd88f9154"
+        },
+        {
+            "name": "Atlanta City Council - CDHR Quarterly Public Hearing",
+            "description": "PUBLIC NOTICE\nThe Community Development/Human Resources Committee of the Atlanta City Council will hold its fourth quarter Comprehensive Development Plan (CDP) Amendments Public Hearing on Monday, November 25, 2013 at 6:00 p.m., in the Council Chamber, 2nd floor, City Hall, 55 Trinity Avenue, SW on the following proposed CDP amendments:\n(1)    13-O-1210\n        CDP-13-16\tTo designate property located at 1965 and 1989 Cheshire Bridge Road to the Low Density Commercial Land Use Classification.\nNPU F                                                      Council District 6\n(2)    13-O-1262\n        CDP-13-14\tTo redesignate properties that are located at 532, 536, 540, 544, 545, 550 and 555 Bishops Way (formerly known as 753 Johnson Avenue, N.E.) from the Low Density Residential to the Medium Density Residential Land Use Designation.\nNPU M                                                     Council District 2\n(3)    13-O-1352\n         CDP-13-11\tTo redesignate properties that are located at 1144 and 1160 Mailing, 410, 430, 505 Englewood Avenue, 14-0041-LL012, 14-0041-LL005, 14-0041-LL008, 14-0041-LL011 and 14-0041-LL012, from the Medium Density Residential and the Medium Density Mixed-Use to the High Density Mixed-Use Land Use Designation.\nNPU Y                                                      Council District 1\n(4)    13-O-1353\n        CDP-13-17\n        \tTo redesignate properties that are located at 746, 766, and 776 Willoughby Way, 735, 737 and 820 Ralph McGill Boulevard, 14-00180004065 and 581, 591 and 601 Somerset Terrace from the Mixed Use Land Use to the Industrial Land Use Designation.\nNPU M                                                      Council District 2\n(5)    13-O-1354\n         CDP-13-15\tTo resdesignate properties that are located at 646, 648 and 652 Echo Street, N.W. from the Low Density Residential to the Low Density Commercial Land Use Designation.\nNPU L                                                      Council District 3\n(6)    13-O-1356\n       CDP-12-02\tTo redesignate property that is located at 903 Huff Road from the Industrial Land Use Designation to the High Density Residential Land Use Designation.\nNPU D                                                      Council District 9\n(7)    13-O-1325\tTo incorporate the Collier Village Blueprints Plan into the CDP.\nNPU C                                                      Council District 8\n(8)  13-O-1326\tTo adopt the Candler Park Neighborhood Master Plan and to incorporate the Plan into the CDP.\nNPU N                                                     Council District 6\n\n\nPublic Comment is welcome\nFor more information contact Bureau of Planning at (404) 330-6145\n",
+            "where": {
+                "address": "Council Chambers, 55 Trinity Ave, Atlanta,  GA 30303"
+            },
+            "when": "2013-11-25T23:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "2b9549460c87fd08900d77fe1f75a713d098ae35"
+        },
+        {
+            "name": "Atlanta City Council - CU Briefing",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room #1, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-26T14:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "ed70e61b9965572e416337adae76a0c3b800fc1b"
+        },
+        {
+            "name": "Atlanta City Council - City Utilities Committee",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room 2, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-26T14:30:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "a086756982235368000768a193bdbbb7db0ed194"
+        },
+        {
+            "name": "Atlanta City Council - CD Briefing",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room #1, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-26T16:30:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "deb7aa6761bea6e6b559c63f7ae3635850bc763c"
+        },
+        {
+            "name": "Atlanta City Council - PS Briefing",
+            "description": "\n",
+            "where": {
+                "address": "Committee Room #1, 55  Trinity Avenue Atlanta, Ga 30303"
+            },
+            "when": "2013-11-26T17:00:00.000Z",
+            "media": {
+                "src": "http://citycouncil.atlantaga.gov/press/62.gif"
+            },
+            "_id": "bde4730b3f1c3efbddb8322f9a4a1df304005e58"
+        },
+        {
+            "name": "Runoff Date",
+            "description": "Registration deadline: TBD",
+            "when": null,
+            "media": {
+                "src": "http://clatl.com/binary/84e9/1343710163-july-31-2012-elections-atlanta.jpeg"
+            },
+            "where": {
+                "address": "Your Polling Location"
+            },
+            "_id": "66d13d29aa7a1cf6b9dc50cf908f16d1f21f4225"
+        },
+        {
+            "name": "Runoff Date",
+            "description": "Registration deadline: October 7, 2013",
+            "when": "2013-12-03T05:00:00.000Z",
+            "media": {
+                "src": "http://images.huffingtonpost.com/2012-10-02-http%3A-www.google.com-imgres%3Fimgurl%3Dhttp%3A-www.randishade.com-UserFiles-vote.jpg%26imgrefurl%3Dhttp%3A-www.randishade.com-212-vote.htm%26h%3D1044%26w%3D1050%26sz%3D265%26tbnid%3D3vmmZTFVkvHaOM%3A%26tbnh%3D82%26tbnw%3D82%26zoom%3D1%26usg%3D__WJf1MgGykMGSKtmGxVQv1DzXbMQ%3D%26docid%3DypEX5_LJAM4ucM%26sa%3DX%26ei%3DQ4FqUPaIDJK89QTRioD4Ag%26ved%3D0CCYQ9QEwAA%26dur%3D4598-VoteButton.jpg"
+            },
+            "where": {
+                "address": "Your Polling Location"
+            },
+            "_id": "45cbc28e41a84d178fcfe129a6f97baff32c012e"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "The School Box - Duluth 3885 Venture Dr Duluth, GA 30096"
+            },
+            "name": "Salvation Army Can-A-Thon Volunteers Needed - Duluth",
+            "media": {
+                "src": "http://www.msstrength.com/wp-content/themes/zen/images/leaves.jpg"
+            },
+            "_id": "af733e0b4164459ce14af2346601339aed571d87"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "Turner Field 755 Hank Aaron Drive Southeast Atlanta, GA 30315"
+            },
+            "name": "Salvation Army Can-A-Thon - Turner Field",
+            "media": {
+                "src": "http://blog.operationhope.org/home/wp-content/uploads/2013/04/Volunteers.jpg"
+            },
+            "_id": "38068d272b1b7275c259ed31dd41b329110436f0"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "Town Center Mall 400 Ernest W Barrett Pkwy NW Kennesaw, GA 30144"
+            },
+            "name": "Salvation Army Can-A-Thon - Kennesaw",
+            "media": {
+                "src": "http://www.msstrength.com/wp-content/themes/zen/images/leaves.jpg"
+            },
+            "_id": "197b0935a70f64ec40e7a7d5868e9cf8218e4f97"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "Ayusa Headquarters 600 California St. 10th Fl San Francisco, CA 94108"
+            },
+            "name": "Host an Exchange Student With Ayusa",
+            "media": {
+                "src": "http://www.msstrength.com/wp-content/themes/zen/images/leaves.jpg"
+            },
+            "_id": "638e3e34a6de9af8c8aff1efd998a157f9e87d96"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "3524 Keswick Drive Atlanta, GA 30341"
+            },
+            "name": "Bring Warmth to the disadvantage",
+            "media": {
+                "src": "http://blog.operationhope.org/home/wp-content/uploads/2013/04/Volunteers.jpg"
+            },
+            "_id": "ac21ca0fe1ea59f497060cb4b75497aa3f3170b6"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "5238 Peachtree RD Chamblee, GA 30341"
+            },
+            "name": "Bi-Lingual Healthy Living Presenter in Gwinnett",
+            "media": {
+                "src": "http://www.msstrength.com/wp-content/themes/zen/images/leaves.jpg"
+            },
+            "_id": "3666efa6ebbb4669012a73400a97cc74a8b846ce"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "Virtual: Email or Phone Atlanta, GA 30319"
+            },
+            "name": "Share your knowledge with a small business owner",
+            "media": {
+                "src": "http://blog.operationhope.org/home/wp-content/uploads/2013/04/Volunteers.jpg"
+            },
+            "_id": "d86cf57b1adcf8d06a1f530ee60537edb3cbb364"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "250 Williams St Atlanta, GA 30303"
+            },
+            "name": "American Cancer Society Needs Drivers to Take Cancer Patients to Treatment in Florence...",
+            "media": {
+                "src": "http://blog.operationhope.org/home/wp-content/uploads/2013/04/Volunteers.jpg"
+            },
+            "_id": "7b48fd35a8114759eb87013ebbc4c9b943c4f0e3"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "Villages at Carver community 201 Moury Ave Atlanta, GA 30315"
+            },
+            "name": "Couples! Consider mentoring a teen",
+            "media": {
+                "src": "http://www.msstrength.com/wp-content/themes/zen/images/leaves.jpg"
+            },
+            "_id": "12a4783981cfd8c36ae84f4830daa3db633177c1"
+        },
+        {
+            "when": null,
+            "where": {
+                "address": "Grant Park 840 Cherokee Ave SE Atlanta, GA 30315"
+            },
+            "name": "Support people living in Poverty",
+            "media": {
+                "src": "http://blog.operationhope.org/home/wp-content/uploads/2013/04/Volunteers.jpg"
+            },
+            "_id": "4d4d9a097a7835fc9f0bb355c1c16b28f6b09868"
+        }
+    ]
 }
