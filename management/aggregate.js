@@ -44,6 +44,7 @@ function getCouncilEvents(fn){
 		    processGoogleCalData(JSON.parse(body),function(err,data){
 		    	_.each(data,function(dat){
 		    		dat.media={src:getRandomCouncilImage()};
+		    		dat.tags=['council'];
 		    	});
 		    	fn(err,data);
 		    });
@@ -96,6 +97,7 @@ function getElections(fn){
 						  });
 						  act.media= {src:getRandomElectionImage()};
 						  act.where={};
+						  act.tags=['vote'];
 						  act.where.address="Your Polling Location";
 						  results.push(act);
 					  }
@@ -125,7 +127,7 @@ function getVolunteer(fn){
 				  var $ = window.$;
 				  window.$(".searchitem","#searchresults").each(function(i){
 				
-					  
+					  act.tags=['volunteer'];
 					  act = {};
 					  act.when = new Date($.trim($('.oppdate',this).text().split('-')[0]).replace(/\s+/g,' '));
 					  var html = $(".search_opp_location",this).html().replace(/></g,"> <");

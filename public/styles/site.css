@@ -157,25 +157,42 @@ button.right {
   margin-left: 10px;
 }
 
+/* line 117, scss/site.scss */
+.checkbox.left {
+  float: float;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-right: 4px;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+  border: solid 1px #ddd;
+  padding: 4px;
+  border-radius: 3px;
+  padding-left: 30px;
+}
+
 /*-------------------
 	End Feed
 ---------------------*/
 /*-------------------
 	Foot
 ---------------------*/
-/* line 128, scss/site.scss */
+/* line 130, scss/site.scss */
 #points {
   font-size: 15pt;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-/* line 133, scss/site.scss */
+/* line 136, scss/site.scss */
 #share a {
   display: inline-block;
   margin: 0 4px;
 }
 
-/* line 139, scss/site.scss */
+/* line 142, scss/site.scss */
 footer {
   background-color: #f3f3f3;
   box-sizing: border-box;
@@ -185,34 +202,34 @@ footer {
   overflow: auto;
   padding-top: .2em;
 }
-/* line 142, scss/site.scss */
+/* line 145, scss/site.scss */
 footer ul {
   list-style: none;
 }
-/* line 147, scss/site.scss */
+/* line 150, scss/site.scss */
 footer.row {
   margin-left: 0px;
   margin-right: 0px;
 }
-/* line 154, scss/site.scss */
+/* line 157, scss/site.scss */
 footer .left {
   text-align: left;
 }
-/* line 155, scss/site.scss */
+/* line 158, scss/site.scss */
 footer .left em, footer .left span {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 157, scss/site.scss */
+/* line 160, scss/site.scss */
 footer .right {
   text-align: right;
 }
-/* line 160, scss/site.scss */
+/* line 163, scss/site.scss */
 footer > ul {
   padding-top: 10px;
 }
 @media (max-height: 500px) {
-  /* line 139, scss/site.scss */
+  /* line 142, scss/site.scss */
   footer {
     /*position:static;*/
   }

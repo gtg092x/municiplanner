@@ -21,4 +21,12 @@ $(function(){
 	$("#all").click(function(){
 		$(".feed-item").not(".in").addClass('in');
 	});
+	$('.checkbox input').change(function() {
+		
+        if($(this).is(":checked")) {
+        	$("[data-tags='"+$(this).val()+"']").removeClass('hide');
+        }else{
+        	$("[data-tags='"+$(this).val()+"']").addClass('hide');
+        }       
+    });
 });

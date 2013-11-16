@@ -1,5 +1,5 @@
 mixin feed-item(item,i,namespace)
-	li.feed-item.row(id=item._id+namespace)
+	li.feed-item.row(id=item._id+namespace,data-tags=item.tags?item.tags.join(','):"")
 		div.row.col-sm-12
 			div.col-sm-3
 				a.img-wrapper(href='/act/detail/10')

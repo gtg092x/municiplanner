@@ -8,7 +8,14 @@ block content
 		//div.container
 		div.container 
 			div.row
-				button.right.btn.btn-danger#pause Pause
-				button.right.btn.btn-success#all Get All
+				div.col-xs-6
+					- each key,val in {vote:"Voting",council:"Council",volunteer:"Volunteer Work"}
+						div.checkbox.left
+							label
+								| #{key}
+								input(type="checkbox",checked='checked',class='check-it',value=val)
+				div.col-xs-6
+					button.right.btn.btn-danger#pause Pause
+					button.right.btn.btn-success#all Get All
 		div.row			
 			+feed(feed,"index");
