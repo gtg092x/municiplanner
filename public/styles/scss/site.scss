@@ -50,9 +50,18 @@ html,body{
 ---------------------*/
 
 .feed{
+	padding-left:3px;
+	padding-right:3px;
 	.feed-item{
-		img{width:100%;}
+		img{width:97%;border:solid 3px #eee;}
+		
+		padding-top:8px;
+		padding-bottom:8px;
+		border-top:solid 1px #ddd; 
+		&:first-child{border-top:none;padding-top:0;}
+		&:last-child{padding-bottom:0;}
 	}
+	
 }
 
 /*-------------------

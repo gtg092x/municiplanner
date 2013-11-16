@@ -34,10 +34,10 @@ exports.all = function(fn){
 	return fn(null,acts);
 }
 
-exports.one = function(query,fn){
-	return fn(null,acts);
+exports.find = function(query,fn){
+	return fn(null,acts[0]);
 }
 
-exports.list = function(query,fn){
+exports.where = function(query,fn){
 	return fn(null,acts);
 }

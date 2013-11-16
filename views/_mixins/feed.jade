@@ -1,5 +1,5 @@
 mixin feed-item(item,i)
-	.feed-item.row
+	li.feed-item.row
 		div.col-xs-3
 			img(src=item.media.src)
 		div.col-xs-9
@@ -9,6 +9,6 @@ mixin feed-item(item,i)
 				span=item.whenFormatted()
 
 mixin feed(acts)
-	.feed
+	ul.feed.list-unstyled
 		- each item,i in acts
 			+feed-item(item,i)

@@ -42,9 +42,30 @@ html, body {
 /*-------------------
 	Feed
 ---------------------*/
-/* line 54, scss/site.scss */
+/* line 52, scss/site.scss */
+.feed {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+/* line 55, scss/site.scss */
+.feed .feed-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top: solid 1px #ddd;
+}
+/* line 56, scss/site.scss */
 .feed .feed-item img {
-  width: 100%;
+  width: 97%;
+  border: solid 3px #eee;
+}
+/* line 61, scss/site.scss */
+.feed .feed-item:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+/* line 62, scss/site.scss */
+.feed .feed-item:last-child {
+  padding-bottom: 0;
 }
 
 /*-------------------
@@ -53,7 +74,7 @@ html, body {
 /*-------------------
 	Foot
 ---------------------*/
-/* line 66, scss/site.scss */
+/* line 75, scss/site.scss */
 footer {
   background-color: #f3f3f3;
   box-sizing: border-box;
@@ -63,29 +84,29 @@ footer {
   overflow: auto;
   padding-top: .2em;
 }
-/* line 69, scss/site.scss */
+/* line 78, scss/site.scss */
 footer ul {
   list-style: none;
 }
-/* line 74, scss/site.scss */
+/* line 83, scss/site.scss */
 footer.row {
   margin-left: 0px;
   margin-right: 0px;
 }
-/* line 81, scss/site.scss */
+/* line 90, scss/site.scss */
 footer .left {
   text-align: left;
 }
-/* line 82, scss/site.scss */
+/* line 91, scss/site.scss */
 footer .right {
   text-align: right;
 }
-/* line 85, scss/site.scss */
+/* line 94, scss/site.scss */
 footer > ul {
   padding-top: 10px;
 }
 @media (max-height: 500px) {
-  /* line 66, scss/site.scss */
+  /* line 75, scss/site.scss */
   footer {
     /*position:static;*/
   }
