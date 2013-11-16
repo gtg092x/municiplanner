@@ -75,6 +75,8 @@ html,body{
 	padding-left:3px;
 	padding-right:3px;
 	.feed-item{
+		padding-left:20px;
+		padding-right:20px;
 		.title{margin-top:0;}
 		.img-wrapper{width:97%;max-height:100px;display:inline-block;overflow:hidden;}
 		img{
@@ -87,17 +89,31 @@ html,body{
 
 		.left{float:left;}
 		.right{float:right;}
+		.well{margin-top:6px;}
+		.directions{position:relative;top:-4px;}
 		button{margin:0 5px;}
 		button:last-child{margin-right:0px;}
 		 
-		padding-top:8px;
-		padding-bottom:8px;
+		
 		border-top:solid 1px #ddd; 
 		&:first-child{border-top:none;padding-top:0;}
 		&:last-child{padding-bottom:0;}
+		
+		overflow:hidden;
+		transition:all 1s;
+		max-height:0;
+		padding-top:0;
+		padding-bottom:0;
+		&.in{
+			max-height:999px;
+			padding-top:8px;
+			padding-bottom:8px;
+		}
 	}
 	
 }
+body{padding-bottom:50px;}
+button.right{float:right;position:relative;right:30px;bottom:10px;margin-left:10px;}
 
 /*-------------------
 	End Feed
@@ -108,6 +124,17 @@ html,body{
 ---------------------*/
 @media (max-width: $container_width){
 
+}
+#points{
+	font-size:15pt;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#share{
+	a{
+		display:inline-block;
+		margin:0 4px;
+	}
 }
 
 footer{
@@ -125,7 +152,9 @@ footer{
 	width:100%;
 	overflow:auto;
 	
-	.left{text-align:left;}
+	.left{text-align:left;
+		em,span{display:inline-block;margin-right:10px;}
+	}
 	.right{text-align:right;}
 	padding-top:.2em;
 	

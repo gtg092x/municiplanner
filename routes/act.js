@@ -16,19 +16,22 @@ exports.index=function(app){
 	});
 	
 	routes.get("/detail/:id",function(req, res, next){
-		var id = req.params.id;
-		var act = actProvider.find({}, function(err, data){
+		var id = Number(req.params.id);
+		var act = actProvider.find(id, function(err, data){
+			
 			res.locals.act = data;
+			res.render("act/model", {item: data,act:data});
 		});
-		res.render("act/model", {item: act});
+		
 	});
 
 	routes.get("/commit/:id",function(req, res, next){
-		var id = req.params.id;
-		var act = actProvider.find({},function(err, data){
+		var id = Number(req.params.id);
+		var act = actProvider.find(id,function(err, data){
 			res.locals.act = data;
+			res.render("act/commit", {item: data,act:data});
 		});
-		res.render("act/commit", {item: act});
+		
 	});
 	
 	return routes;
