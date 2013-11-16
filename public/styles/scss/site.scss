@@ -21,6 +21,21 @@ $bar_height:500px;
 
  $doc_padding:30px;
 
+$nav_background:#eee;
+$nav_text:#222;
+
+.navbar-default{
+	background-color:$nav_background;
+}
+
+.navbar-default .navbar-brand {
+	color: $nav_text;
+}
+
+h1, h2, h3, h4, #brand{font-family:'Open Sans'; font-weight:300;}
+
+
+
 /*-------------------
 	Bootstrap Override
 ---------------------*/
