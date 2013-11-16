@@ -1,0 +1,26 @@
+extends _inc/_layout
+
+block nav
+	//nav
+
+block content
+	section#index
+		div.jumbotron#mast
+			div.container
+				div.row
+					div.col-md-12.col-xs-12
+						:markdown
+							#Municiplanner
+						div#article_carousel.carousel.slide(data-ride="carousel")
+							div.carousel-inner
+								- each link,i in [{link:"/article/govathon",label:"Hello Govathon!"}]
+									div(class='item '+(i==0?"active":""))
+										a(href=link.link)=link.label
+		div.markdown.container
+			div.row			
+				div.col-sm-6
+					:markdown
+						##An app to get you in government
+		div.container.markdown
+			div.row			
+				div.col-sm-6

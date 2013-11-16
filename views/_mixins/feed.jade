@@ -1,0 +1,7 @@
+mixin feed-item(item,i)
+	.feed-entry
+
+mixin feed(acts)
+	.feed
+		- each item,i in acts
+			+feed-item(item,i)
