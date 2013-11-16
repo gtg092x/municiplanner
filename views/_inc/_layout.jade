@@ -6,12 +6,21 @@ html
 		//include ./ga.html
 		nav(role="navigation").navbar.navbar-default
 			div.container
-				//a#brand.navbar-brand(href='/')
-					img#brand_img(src='/images/brand.png')
+				a#brand.navbar-brand(href='/')
+					| municiplanner
+					//img#brand_img(src='/images/brand.png')
 				ul.nav.navbar-nav.navbar-left.compressable
 					//li
 						a(href='/places') Places				
 				block nav
+
+				.nav.navbar-nav.navbar-right
+					form.navbar-form.navbar-left(role='search')
+						.form-group
+							input.form-control(type='text', placeholder='Search')
+							button.btn.btn-default(type='submit') Search
+
+
 				//ul.nav.navbar-nav.navbar-right.compressable
 					- if(!auth)
 						li
