@@ -1,0 +1,22 @@
+{
+  "name": "bettouch",
+  "version": "1.0.0",
+  "main": "app.js",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+	  "bootstrap": "*",
+	    "jquery.cookie":"*",
+	    "animate.css":"*",
+	    "jquery-form":"*",
+	    "json2":"*",
+	    "typeahead.js":"*",
+	    "html5shiv":"*",
+	    "backbone":"*",
+	    "underscore":"*",	 
+	    "jquery-touchswipe":"*",
+	    "hogan":"*"
+  }
+}

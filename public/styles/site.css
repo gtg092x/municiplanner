@@ -1,0 +1,85 @@
+/* line 7, scss/site.scss */
+.icon {
+  font-family: 'Glyphicons Halflings';
+}
+
+/* line 9, scss/site.scss */
+.glyphicon {
+  position: relative;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+/*-------------------
+	Bootstrap Override
+---------------------*/
+/* line 28, scss/site.scss */
+.clearfloat {
+  clear: both;
+  width: 100%;
+  font-size: 1px;
+}
+
+/* line 35, scss/site.scss */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* line 40, scss/site.scss */
+html, body {
+  min-height: 100%;
+}
+
+/*-------------------
+	End Overrides
+---------------------*/
+/*-------------------
+	Foot
+---------------------*/
+/* line 52, scss/site.scss */
+footer {
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  overflow: auto;
+  padding-top: .2em;
+}
+/* line 55, scss/site.scss */
+footer ul {
+  list-style: none;
+}
+/* line 60, scss/site.scss */
+footer.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* line 67, scss/site.scss */
+footer .left {
+  text-align: left;
+}
+/* line 68, scss/site.scss */
+footer .right {
+  text-align: right;
+}
+/* line 71, scss/site.scss */
+footer > ul {
+  padding-top: 10px;
+}
+@media (max-height: 500px) {
+  /* line 52, scss/site.scss */
+  footer {
+    position: static;
+  }
+}
+
+/*-------------------
+	End Foot
+---------------------*/

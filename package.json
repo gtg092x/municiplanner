@@ -1,0 +1,37 @@
+{
+  "name": "drinkbreaker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.1",
+    "markdown":"*",
+    "mongo":"*",
+    "forms":"*",
+    "mongoose":"*",
+    "bcrypt":"*",
+    "passport":"*",
+    "passport-local":"*",
+    "extend":"*",
+    "string":"*",
+    "aws-sdk":"*",
+    "underscore":"*",
+    "jade": "*"
+  },
+  "devDependencies": {
+	    "grunt": "~0.4.1",
+	    "grunt-contrib-compass":"~0.4.1",
+	    "grunt-concat-css":"*",
+	    "grunt-contrib-concat":"*",
+	    "grunt-bower-task":"*",
+	    "grunt-contrib-watch":"*",
+	    
+	    "grunt-contrib-coffee":"*",
+	    "grunt-contrib-jshint": "~0.6.0",
+	    "grunt-contrib-nodeunit": "~0.2.0",
+	    "grunt-contrib-uglify": "~0.2.2",	    
+	    "grunt-contrib-copy":"*"
+	  }
+}

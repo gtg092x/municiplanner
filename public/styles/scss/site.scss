@@ -1,0 +1,86 @@
+@import "compass";
+@import "compass/css3/box-shadow";
+@import "compass/css3/text-shadow";
+@import "compass/css3/transform";
+
+ 
+.icon{font-family: 'Glyphicons Halflings';}
+
+.glyphicon {
+  position: relative;  
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  }
+
+$container_width:992px; 
+$bar_height:500px;
+
+ $doc_padding:30px;
+
+/*-------------------
+	Bootstrap Override
+---------------------*/
+
+.clearfloat{ 
+    clear: both;
+    width:100%;
+    font-size:1px;
+}
+  
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+html,body{
+	min-height:100%;
+}
+
+/*-------------------
+	End Overrides
+---------------------*/
+
+/*-------------------
+	Foot
+---------------------*/
+
+footer{
+	background-color:#f3f3f3;
+	box-sizing: border-box;
+	ul{
+		list-style:none;
+	}
+	position:fixed;
+	bottom:0px;
+	&.row{
+	margin-left:0px;
+	margin-right:0px;
+	}
+	width:100%;
+	overflow:auto;
+	
+	.left{text-align:left;}
+	.right{text-align:right;}
+	padding-top:.2em;
+	
+	& > ul{
+		padding-top:10px;
+	}
+	
+	@media (max-height: $bar_height){
+		/*position:static;*/
+	}
+}
+
+/*-------------------
+	End Foot
+---------------------*/
+
+
+
+

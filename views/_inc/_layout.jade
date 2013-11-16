@@ -1,0 +1,36 @@
+!!! 5
+html	
+	include ./header
+	body
+		//include ./ga.html
+		nav(role="navigation").navbar.navbar-default
+			div.container
+				//a#brand.navbar-brand(href='/')
+					img#brand_img(src='/images/brand.png')
+				ul.nav.navbar-nav.navbar-left.compressable
+					//li
+						a(href='/places') Places				
+				block nav
+				//ul.nav.navbar-nav.navbar-right.compressable
+					- if(!auth)
+						li
+							a(href='/account/signup') Sign Up
+						li
+							div
+								a(href='/account/signin').btn.btn-default.navbar-btn Sign In
+					- else
+						li.nav-message Welcome back #{auth.username}
+						li
+							a(href='/profile/my') My Profile
+						li
+							a(href='/account/signout') Sign Out
+							
+		
+		div#main
+			block content
+
+		include ./footer
+
+		include ./scripts
+
+		block scripts

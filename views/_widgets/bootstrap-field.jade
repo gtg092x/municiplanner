@@ -1,0 +1,6 @@
+div(class='field row control-group '+(field&&field.error ? 'has-error' : ''))
+	!{label}	
+	div.controls.col.col-lg-9
+		!{field&&field.widget.toHTML(name, field)}		
+		-if(field.error)
+			p.form-error-tooltip=field.error

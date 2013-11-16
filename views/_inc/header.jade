@@ -1,0 +1,11 @@
+head
+	//if lt IE 9
+		script(src='/scripts/html5shiv.js')
+	title where.io
+	- if(settings.env=="development")
+		script(src="http://localhost:35729/livereload.js")
+	meta(name='viewport', content='width=device-width, initial-scale=1.0')
+	link(href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet',type='text/css')
+	link(rel='stylesheet', href='/styles/lib.'+(pretty?'':'min.')+'css')  
+	link(rel='stylesheet', href='/styles/site.css')
+	script(type='text/javascript', src='/scripts/jquery.min.js') 
