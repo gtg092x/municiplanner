@@ -3,11 +3,12 @@ mixin feed-item(item,i)
 		div.col-xs-3
 			img(src=item.media.src)
 		div.col-xs-9
-			h2=item.name
-			p
+			h3.title=item.name
+			p.left
 				span=item.distance
-				span=item.whenFormatted()
-
+				em=item.whenFormatted()
+			div.right
+				a.btn.btn-default Commit
 mixin feed(acts)
 	ul.feed.list-unstyled
 		- each item,i in acts
