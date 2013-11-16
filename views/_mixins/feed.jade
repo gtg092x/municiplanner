@@ -1,5 +1,12 @@
 mixin feed-item(item,i)
-	.feed-entry
+	.feed-item.row
+		div.col-xs-3
+			img(src=item.media.src)
+		div.col-xs-9
+			h2=item.name
+			p
+				span=item.distance
+				span=item.whenFormatted()
 
 mixin feed(acts)
 	.feed
