@@ -6,7 +6,7 @@ mixin feed-item(item,i,namespace)
 					img(src=item.media.src)
 			div.col-sm-9
 				h3.title=item.name
-				p.left
+				div.left
 					span=item.distance
 					em=item.whenFormatted()
 				div.right
