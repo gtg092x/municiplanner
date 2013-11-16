@@ -1,7 +1,16 @@
 extends ../_inc/_layout
 
 block content
-	section#about_app.about
-		div.container
-			div.row
-				h1 Model
+	section#act_app.act
+		.container
+			.row
+				.col-lg-6.col-sm-12
+					img(src=act.media.src)
+				.col-lg-6.col-sm-12
+					h1.title=act.name
+					p
+						span Distance: 
+						span=act.distance
+
+					a.btn.btn-default(href="/act/commit/10") Commit
+

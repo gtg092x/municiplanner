@@ -7,30 +7,28 @@ routes.set('views', __dirname + '/../views');
 exports.index=function(app){	
 	
 	routes.get("/",function(req, res, next){
-		res.render('index', {  });
+		res.render('index', {});
 	});
 
 	routes.get("/list",function(req, res, next){
-		var acts = actProvider.all(function(acts){
-			
-		});
+		var acts = actProvider.all(function(acts){});
 		res.render("act/list");
 	});
 	
 	routes.get("/detail/:id",function(req, res, next){
 		var id = req.params.id;
-		var act = actProvider.one(function(acts){
-			
+		var act = actProvider.find({}, function(err, data){
+			res.locals.act = data;
 		});
-		res.render("act/model");
+		res.render("act/model", {item: act});
 	});
 
 	routes.get("/commit/:id",function(req, res, next){
 		var id = req.params.id;
-		var act = actProvider.one(function(acts){
-			
+		var act = actProvider.find({},function(err, data){
+			res.locals.act = data;
 		});
-		res.render("act/commit");
+		res.render("act/commit", {item: act});
 	});
 	
 	return routes;
