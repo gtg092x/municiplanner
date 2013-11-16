@@ -96,18 +96,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //passportManager.manage(passport);
 
-
-
-
-
 //app.use("/account",require('./routes/account').index(app,passport));
 //app.use('/profile',require('./routes/profile').index(app,passport));
 //app.use('/media',require('./routes/media').index(app,passport));
 
+
+app.use('/act',require('./routes/act').index(app));
 app.use(routes.index(app));
-
-
-
 
 
 http.createServer(app).listen(app.get('port'), function(){

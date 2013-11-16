@@ -76,7 +76,7 @@ footer > ul {
 @media (max-height: 500px) {
   /* line 52, scss/site.scss */
   footer {
-    position: static;
+    /*position:static;*/
   }
 }
 
