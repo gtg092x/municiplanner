@@ -2,16 +2,19 @@ mixin feed-item(item,i,namespace)
 	li.feed-item.row(id=item._id+namespace)
 		div.row.col-sm-12
 			div.col-sm-3
-				a.img-wrapper
+				a.img-wrapper(href='/act/detail/10')
 					img(src=item.media.src)
 			div.col-sm-9
-				h3.title=item.name
+				a(href='/act/detail/10')
+					h3.title=item.name
 				div.left
+					span Distance: 
 					span=item.distance
+					span miles
 					em=item.whenFormatted()
 				div.right
 					button.btn.btn-info(data-parent="#feed"+namespace,data-toggle="collapse",data-target="#"+item._id+namespace+" .feed-map") Where
-					a.btn.btn-default Commit
+					a.btn.btn-default(href="/act/commit/10") Commit
 		div.row.col-sm-12.collapse.feed-map(data-parent="#feed"+namespace)
 			div.map-canvas.col-sm-12
 mixin feed(acts,namespace)
