@@ -1,0 +1,143 @@
+.cbp_tmtimeline {
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+.cbp_tmtime{
+	width: 14%;
+}
+.cbp_tmtime:hover{
+	cursor:pointer;
+}
+.cbp_tmtime h2{
+	text-align: left;
+}
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #ddd;
+	left: 22%;
+	margin-left: -50px;
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	position: absolute;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	display: block;
+	font-style: italic;	
+}
+/* Right content */
+.cbp_tmlabel img{
+	width: 100%;
+}
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin: 0px 0 15px 25%;
+	color: #fff;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+}
+.cbp_tmlabel.skills i{
+	font-size: 80px;
+}
+.awards i{
+	color: #DCDDDF;
+	font-size: 90px;
+}
+.cbp_tmlabel .fa-star{
+	color: #f7e828;
+}
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after,.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 10px;
+	top: -12px;
+}
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon{
+	width: 40px;
+	height: 40px;
+	font-size: 1.4em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	margin: 0 0 0 -64px;
+	left: 22%;
+}
+.cbp_tmtimeline > li .cbp_tmicon:hover{
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.cbp_tmlabel img{
+		max-width: 40%;
+	}
+	.cbp_tmtimeline > li .cbp_tmlabel:after, .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after{
+		top: -22px;
+	}
+	.cbp_tmtimeline > li .cbp_tmicon {
+		margin: -92px 5px 0 0px;
+	}
+
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline > li .cbp_tmlabel:after {
+		right: auto;
+		left: 20px;
+		top: -20px;
+	}
+	.cbp_tmtimeline > li .cbp_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -92px 5px 0 0px;
+	}	
+}
+@media handheld, only screen and (max-width: 380px) {
+	.cbp_tmtimeline > li .cbp_tmicon {
+		margin: -105px 5px 0 0px;
+	}
+}
+@media handheld, only screen and (max-width: 320px) {
+	.cbp_tmtimeline > li .cbp_tmicon {
+		margin: -132px 5px 0 0px;
+	}
+}

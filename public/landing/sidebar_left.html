@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SideBar Left Blog - Political HTML5/CSS3 Responsive Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+   <!-- Mains Style-->
+    <link href="css/style.css" rel="stylesheet" media="screen">  
+
+    <!-- Skins styles -->
+    <link class="skins" href="css/skins/default.css" rel="stylesheet" media="screen">  
+
+    <!-- styles for IE -->
+    <!--[if lte IE 9]>
+      <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+    <![endif]-->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Skins Changer-->
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  </head>
+
+  <body> 
+
+    <ul id="colorchanger">      
+      <li><a class="colorbox colordefault" href="?theme=default" title="Default"></a></li>
+      <li><a class="colorbox color1" href="?theme=blue" title="One"></a></li>
+      <li><a class="colorbox color2" href="?theme=green" title="One"></a></li>
+    </ul>
+
+    
+    <!--Main-->
+    <section class="main">
+
+       <!-- Main title -->
+       <div class="main_title simple_sections">
+        <!-- Main Name -->
+        <div class="main_name">
+          <div class="container">
+            <div class="row">
+              
+              <div class="col-md-5">
+                <a href="index.html"><h1>ERICK Cinquemani</h1></a>
+              </div>
+
+              <div class="col-md-7">
+                <ul id="menu" class="sf-menu">
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About <i class="fa fa-angle-double-down"></i></a>
+                      <ul>                                  
+                        <li><a href="mycv.html"><i class="fa fa-angle-right"></i> Biography</a></li>      
+                      </ul>
+                    </li>
+
+                   <li><a href="blog.html">Blog <i class="fa fa-angle-double-down"></i></a>
+                      <ul>                                  
+                        <li><a href="option_blog.html"><i class="fa fa-angle-right"></i> Alternative Blog</a></li>                  
+                        <li><a href="single_post.html"><i class="fa fa-angle-right"></i> Single Blog</a></li>
+                      </ul>
+                    </li> 
+
+                    <li><a class="active" href="#">Features <i class="fa fa-angle-double-down"></i></a>
+                      <ul>                                  
+                        <li><a href="elements.html"><i class="fa fa-angle-right"></i> Elements</a></li>                  
+                        <li><a href="sidebar_left.html"><i class="fa fa-angle-right"></i> Sidebar Left</a></li>        
+                        <li><a href="mycv.html"><i class="fa fa-angle-right"></i> Biography</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Third Level</a>
+                          <ul>
+                            <li><a href="#">Link One</a></li></ul>
+                        </li>
+                      </ul>
+                    </li> 
+
+                    <li><a href="events.html">Events <i class="fa fa-angle-double-down"></i></a>
+                      <ul>                                  
+                        <li><a href="detailed_events.html"><i class="fa fa-angle-right"></i> Detailed Event</a></li>    
+                      </ul>
+                    </li> 
+
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <!-- end Main Name -->
+
+         <!--  Bar done -->
+          <div class="done_info sections">
+            <div class="container">
+              <div class="row">
+
+                <!--  Registrer to Vote -->
+                <div class="col-md-4">
+                   <div class="content_done">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <div class="icon">
+                            <i class="fa fa-group"></i>
+                          </div>
+                        </div>
+                        <div class="col-md-9">                         
+                          <h2>Register to Vote</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- end Registrer to Vote -->
+
+                <!--  Contact -->
+                <div class="col-md-4">
+                  <div class="content_done">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="icon">
+                          <i class="fa fa-envelope"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-9">
+                          <h2>CONTACT Us</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  end Contact -->
+
+                <!--  Done -->
+                <div class="col-md-4">
+                  <div class="content_done donate">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="icon">
+                         <i class="fa fa-dollar"></i>
+                         </div>
+                      </div>
+                      <div class="col-md-9">                      
+                        <h2>Donate</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  end Done -->
+
+              </div>
+            </div>
+          </div>
+          <!--  end Bar done -->
+        </div>
+        <!--  Main Title -->
+      </section>
+      <!-- end Main -->
+
+    <div class="clearfix"></div>
+
+    <!-- central content -->
+    <section class="central_content">
+      <div class="container">
+
+
+        <div class="row left_sidebar">
+         <!--Left Sidebar-->
+         <div class="col-md-4">
+           <aside>
+            <!--search-->
+            <form role="search" method="get" id="searchform" class="searchform" action="#">
+              <div>
+                <input type="text" value="" name="search" id="search" placeholder="Here to search">
+                <input type="submit" class="button" id="searchsubmit" value="Search">
+              </div>
+            </form>
+            <!--search-->
+
+          <div class="divisor_line"></div>
+
+            <!--blockquote-->
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <span>Someone famous, Source Title</span>
+            </blockquote>
+
+            <div class="divisor_line"></div>
+
+            <blockquote>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+               <span>Someone famous, Source Title</span>
+            </blockquote>
+            <!--blockquote-->
+
+            <div class="divisor_line"></div>
+            
+            <!--Video-->
+            <h3>Video</h3>
+            <iframe src="http://player.vimeo.com/video/44367635" height="250"></iframe>
+            <!--Video-->
+
+            <div class="divisor_line"></div>
+
+            <!--Accordion-->
+            <h3>Accordion</h3>
+            <div class="accordion-trigger"><span>Flags</span></div>   
+                <div class="accordion-container">
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. </p>
+                </div>
+
+              <div class="accordion-trigger"><span>Employment Resources</span></div>   
+                <div class="accordion-container">
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                </div>
+
+              <div class="accordion-trigger"><span>Grant Assistance</span></div>      
+                <div class="accordion-container">
+                  <p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
+                </div>
+
+              <div class="accordion-trigger"><span>Student Aid</span></div>      
+                <div class="accordion-container">
+                   <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. </p>
+                </div>
+
+              <div class="accordion-trigger"><span>Squedule Request</span></div>      
+                <div class="accordion-container">
+                   <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                </div>
+              <!--Accordion-->
+
+              <div class="divisor_line"></div>
+
+              <!--Calendar-->
+              <h3>Calendar</h3>
+              <table id="wp_calendar">
+                <caption>June 2012</caption>
+                <thead>
+                  <tr>
+                    <th scope="col" title="Monday">M</th>
+                    <th scope="col" title="Tuesday">T</th>
+                    <th scope="col" title="Wednesday">W</th>
+                    <th scope="col" title="Thursday">T</th>
+                    <th scope="col" title="Friday">F</th>
+                    <th scope="col" title="Saturday">S</th>
+                    <th scope="col" title="Sunday">S</th>
+                  </tr>
+                </thead>
+                <tfoot>
+                  <tr>
+                    <td colspan="3"><a href="#" title=""><i class="fa fa-long-arrow-left"></i> May</a></td>
+                    <td>&nbsp;</td>
+                    <td colspan="3"><a href="#" title="">June <i class="fa fa-long-arrow-right"></i></a></td>
+                  </tr>
+                </tfoot>
+                <tbody>
+                  <tr>
+                    <td colspan="4" class="pad">&nbsp;</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td><a href="#">5</a></td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td id="today">9</td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                  </tr>
+                  <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                  </tr>
+                  <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td class="pad" colspan="1">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--Calendar-->
+
+          </aside>
+          </div>
+          <!--Left Sidebar-->
+
+          <div class="col-md-8">
+            
+            <div class="row">
+              <div class="col-md-6">
+                <!--item news-->
+                <div class="item_news option_blog">                        
+                  <ul class="rslides news_slider">
+                    <li class="border_img"><img src="img/slide_01.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_02.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_03.jpg" alt="image-candidate"></li>
+                  </ul> 
+                  <h3>Title Here - Effect Slider</h3>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.[..]</p>
+                  <a class="button_url" href="single_post.html"> Read More</a>
+                </div>
+                <!--item news-->
+              </div>
+              <div class="col-md-6">
+                <!--item news-->
+                <div class="item_news option_blog">                        
+                  <ul class="rslides news_slider">
+                    <li class="border_img"><img src="img/slide_04.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_05.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_06.jpg" alt="image-candidate"></li>
+                  </ul> 
+                  <h3>Title Here - Effect Slider</h3>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.[..]</p>
+                  <a class="button_url" href="single_post.html"> Read More</a>
+                </div>
+                <!--item news-->
+              </div>
+            </div>
+
+            <div class="divisor_line"></div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <!--item news-->
+                <div class="item_news option_blog">                        
+                  <ul class="rslides news_slider">
+                    <li class="border_img"><img src="img/slide_07.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_01.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_02.jpg" alt="image-candidate"></li>
+                  </ul> 
+                  <h3>Title Here - Effect Slider</h3>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.[..]</p>
+                  <a class="button_url" href="single_post.html"> Read More</a>
+                </div>
+                <!--item news--> 
+              </div>
+              <div class="col-md-6">
+                <!--item news-->
+                <div class="item_news option_blog">                        
+                  <ul class="rslides news_slider">
+                    <li class="border_img"><img src="img/slide_03.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_04.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_07.jpg" alt="image-candidate"></li>
+                  </ul> 
+                  <h3>Title Here - Effect Slider</h3>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.[..]</p>
+                  <a class="button_url" href="single_post.html"> Read More</a>
+                </div>
+                <!--item news-->  
+              </div>
+            </div>
+
+            <div class="divisor_line"></div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <!--item news-->
+                <div class="item_news option_blog">                        
+                  <ul class="rslides news_slider">
+                    <li class="border_img"><img src="img/slide_07.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_01.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_02.jpg" alt="image-candidate"></li>
+                  </ul> 
+                  <h3>Title Here - Effect Slider</h3>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.[..]</p>
+                  <a class="button_url" href="single_post.html"> Read More</a>
+                </div>
+                <!--item news--> 
+              </div>
+              <div class="col-md-6">
+                <!--item news-->
+                <div class="item_news option_blog">                        
+                  <ul class="rslides news_slider">
+                    <li class="border_img"><img src="img/slide_03.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_04.jpg" alt="image-candidate"></li>
+                    <li class="border_img"><img src="img/slide_07.jpg" alt="image-candidate"></li>
+                  </ul> 
+                  <h3>Title Here - Effect Slider</h3>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.[..]</p>
+                  <a class="button_url" href="single_post.html"> Read More</a>
+                </div>
+                <!--item news-->  
+              </div>
+            </div>
+
+                <ul class="pagination">
+                  <li><a href="#">Prev</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">Next</a></li>
+                </ul>
+
+          </div>
+
+        </div>
+
+       </div>
+    </section>
+    <!--end central content -->
+
+
+    <div class="clearfix"></div>
+
+    <!--footer-->
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-5">
+            <h2><i class="fa fa-coffee"></i> FOOTER TEXT</h2>
+            <div class="divisor_line"></div>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. </p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h2><i class="fa fa-twitter"></i> LASTES TWEETS</h2>
+            <div class="divisor_line"></div>            
+            <div class="tweets">
+              <p><i class="fa fa-twitter"></i> violence is very dangerous specialy for our children, violence is very dangerous specialy for our children...<span>about 6 hours ago</span></p>             
+            </div>
+            
+            <div class="tweets">
+              <p><i class="fa fa-twitter"></i>violence is very dangerous specialy for our children, violence is very dangerous specialy for our children...<span>about 6 hours ago</span></p>             
+            </div>
+
+          </div>
+
+          <div class="col-md-3">
+            <h2><i class="fa fa-envelope"></i> CONTACT US</h2>
+            <div class="divisor_line"></div>
+            <ul class="contact">
+              <li><i class="fa fa-home"></i> 12345 Street Name,  Bugalagrande</li>
+              <li><i class="fa fa-building-o"></i> Colombia Valle, Province</li>
+              <li><i class="fa fa-phone"></i> Phone: (123) 456-789</li>
+              <li><i class="fa fa-envelope-o"></i>E-mail: <a href="#">info@political.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copry -->
+      <div class="copry">
+        <div class="container">
+          <div class="row">
+            <!-- social -->
+            <div class="social_icon">
+                        
+              <!--Icon Social-->
+              <a class="tooltip_hover" title="Twitter" href="http://twitter.com">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <!--Icon Social-->
+
+              <!--Icon Social-->
+              <a class="tooltip_hover" title="Dribbble" href="http://dribbble.com">
+                <i class="fa fa-dribbble"></i>
+              </a>
+              <!--Icon Social-->
+
+              <!--Icon Social-->
+              <a class="tooltip_hover" title="YouTube" href="http://linkedin.com">
+                <i class="fa fa-youtube"></i>
+              </a>
+              <!--Icon Social-->
+
+              <!--Icon Social-->
+              <a class="tooltip_hover" title="Flickr" href="http://google.com">
+                <i class="fa fa-flickr"></i>
+              </a>
+              <!--Icon Social-->
+
+              <!--Icon Social-->
+              <a class="tooltip_hover" title="Mac" href="http://google.com">
+                <i class="fa fa-apple"></i>
+              </a>
+              <!--Icon Social-->
+
+              <!--Icon Social-->
+              <a class="tooltip_hover" title="Windows" href="http://google.com">
+                <i class="fa fa-windows"></i>
+              </a>
+              <!--Icon Social-->
+
+            </div>
+            <!-- end social -->
+          </div>
+
+          <div class="row">
+            <p>Erick Cinquemani - Your Html Political Site. Copyright © 2013. All Rights Reserved</p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+    <!-- end Footer -->
+
+
+    <!-- ======================= JQuery libs =========================== -->
+   <!-- local copy of jquery. -->       
+    <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>   
+    <!--Lightbox--> 
+    <script type="text/javascript" src="js/fancybox/jquery.fancybox.js"></script> 
+    <!--Totop-->
+    <script type="text/javascript" src="js/totop/jquery.ui.totop.js" ></script>          
+    <!-- Bootstrap.js-->
+    <script src="js/bootstrap.js"></script>
+    <!-- Slide.js-->
+    <script src="js/responsiveslides.js"></script>
+    <!-- Carrousel -->
+    <script src="js/carrousel_topic/owl.carousel.js"></script>
+    <!-- Text Rotator -->
+    <script type="text/javascript" src="js/text_rotator/jquery.simple-text-rotator.js"></script>
+    <!--Nav-->
+    <script type="text/javascript" src="js/nav/tinynav.js"></script> 
+    <script type="text/javascript" src="js/nav/superfish.js"></script>  
+    <!--fUNCTIONS-->
+    <script type="text/javascript" src="js/jquery-func.js"></script>
+    <!-- ======================= End JQuery libs =========================== -->
+
+
+  </body>
+</html>

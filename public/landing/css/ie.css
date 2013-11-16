@@ -1,0 +1,33 @@
+.nav li{
+	background: url(../img/bg_2.png);
+	border: 1px solid #000;	
+}
+.nav li li a{
+	background: url(../img/bg.png);	
+}
+.nav > li > .parent {
+    background-image: none;
+}.main_title.simple_sections{	
+	background:  url(../img/world-map.png) no-repeat;
+}
+.nav ul {
+    width: 15em;
+}
+.done_info{	
+	background: url(../img/bg_2.png);
+}
+.done_info i{
+	font-size: 60px;
+}
+.main_title{
+	background: url(../img/bg_2.png);
+}
+.main_name{
+	background: url(../img/bg.png);
+}
+.events{
+	border: 1px solid #ddd;
+}
+footer .copry{
+	background: url(../img/bg_2.png);
+}

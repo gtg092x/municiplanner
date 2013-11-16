@@ -1,0 +1,38 @@
+.main_title #mc_embed_signup form input[type="submit"],
+.main_title #mc_embed_signup form input[type="submit"]:hover,
+.done_info,
+.done_info:hover,
+.candidate img,
+.candidate img:hover,
+.item_topics,
+.item_topics:hover,
+.img_main img,
+.testimonials img,
+.item_topics:hover .img_main img,
+.testimonials img,
+.comment img,
+.comment img:hover,
+form.replies input[type="submit"],
+form.replies input[type="submit"]:hover,
+.border_img img,
+.border_img img:hover,
+.social_icon a,
+.social_icon a:hover,
+.content_done:hover i,
+.content_done i,
+.content_done:hover a,
+.content_done a,
+.button_url:hover,
+.button_url,
+footer .contact a,
+.events li:hover,
+.events li,
+.toggleMenu.active,
+.toggleMenu,
+.cbp_tmtimeline > li .cbp_tmicon,
+.cbp_tmtimeline > li .cbp_tmicon:hover{	
+	-webkit-transition: all 2.2s linear;
+	-moz-transition: all 2.2s linear;
+	-o-transition: all 2.2s linear;
+	transition: all 2.2s linear;
+}
