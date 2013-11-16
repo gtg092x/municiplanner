@@ -30,6 +30,6 @@ exports.one = function(query,fn){
 	return fn(null,acts);
 }
 
-exports.set = function(query,fn){
+exports.list = function(query,fn){
 	return fn(null,acts);
 }

@@ -64,6 +64,17 @@ app.use(function(req, res, next){
 	next();
 });
 
+var actProvider = require('./provider/act');
+
+app.use(function(req, res, next){
+	
+	actProvider.list({},function(err,data){
+		res.locals.feed = data;
+		next();
+	});
+});
+
+
 app.configure('development', function(){
 	  app.use(express.errorHandler());
 	  app.locals.pretty = true;
