@@ -163,7 +163,19 @@ button.right {
 /*-------------------
 	Foot
 ---------------------*/
-/* line 129, scss/site.scss */
+/* line 128, scss/site.scss */
+#points {
+  font-size: 15pt;
+  margin-top: 10px;
+}
+
+/* line 133, scss/site.scss */
+#share a {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+/* line 139, scss/site.scss */
 footer {
   background-color: #f3f3f3;
   box-sizing: border-box;
@@ -173,34 +185,34 @@ footer {
   overflow: auto;
   padding-top: .2em;
 }
-/* line 132, scss/site.scss */
+/* line 142, scss/site.scss */
 footer ul {
   list-style: none;
 }
-/* line 137, scss/site.scss */
+/* line 147, scss/site.scss */
 footer.row {
   margin-left: 0px;
   margin-right: 0px;
 }
-/* line 144, scss/site.scss */
+/* line 154, scss/site.scss */
 footer .left {
   text-align: left;
 }
-/* line 145, scss/site.scss */
+/* line 155, scss/site.scss */
 footer .left em, footer .left span {
   display: inline-block;
   margin-right: 10px;
 }
-/* line 147, scss/site.scss */
+/* line 157, scss/site.scss */
 footer .right {
   text-align: right;
 }
-/* line 150, scss/site.scss */
+/* line 160, scss/site.scss */
 footer > ul {
   padding-top: 10px;
 }
 @media (max-height: 500px) {
-  /* line 129, scss/site.scss */
+  /* line 139, scss/site.scss */
   footer {
     /*position:static;*/
   }

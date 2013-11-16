@@ -9,7 +9,16 @@ block content
 					span You're Going to 
 					span=act.name
 
-				h3 tell your firends
+				h3 tell your friends
+				div#share
+					a(href='http://www.facebook.com',target='_blank')
+						img(src='http://store.benoitdoremus.com/Accueil_files/facebook.png',width=45)
+					a(href='http://www.twitter.com',target='_blank')
+						img(src='http://www.naccrra.org/sites/default/files/default_site_pages/2013/twitterbig.png',width=45)
+					a(href='https://plus.google.com/',target='_blank')
+						img(src='http://www.gplusinfo.com/wp-content/uploads/2012/02/google-Plus-icon.png',width=45)
+				- var points = Math.round(Math.random()*100)
+				p.well.large#points This event is worth #{points} municipoints!
 
 
 

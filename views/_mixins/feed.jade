@@ -8,8 +8,9 @@ mixin feed-item(item,i,namespace)
 				a(href='/act/detail/10')
 					h3.title=item.name
 				div.left
-					span Distance: #{item.distance} miles
-					br
+					- if(item.distance)
+						span Distance: #{item.distance} miles
+						br
 					em=item.when
 				div.right
 					button.btn.btn-info(data-parent="#feed"+namespace,data-toggle="collapse",data-target="#"+item._id+namespace+" .feed-map") Where
