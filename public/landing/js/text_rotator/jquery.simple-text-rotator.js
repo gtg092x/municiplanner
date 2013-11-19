@@ -16,7 +16,8 @@
   var defaults = {
 		animation: "dissolve",
 		separator: ",",
-		speed: 6000
+		speed: 6000,
+		wait:3000
 	};
 	
 	$.fx.step.textShadowBlur = function(fx) {
@@ -158,8 +159,17 @@
             });
           break;
         }
+        setTimeout(function(){
+            setTimeout(function(){
+          	  rotate();  
+            }, settings.speed);
+            }, settings.wait);
       };
-      setInterval(rotate, settings.speed);
+      setTimeout(function(){
+      setTimeout(function(){
+    	  rotate();  
+      }, settings.speed);
+      }, settings.wait);
     });
   }
   

@@ -11,36 +11,39 @@ jQuery(document).ready(function($){
     jQuery('ul.sf-menu').superfish();
   });
   //=================================== Text rotate ====================================//
-  $(".text_rotate .rotate").textrotator({
+    var speed=8000;
+    $(".text_rotate .rotate").textrotator({
     animation: "fade",
-    speed: 1500
+    speed: 1000,
+    wait:speed*200
   });
   //=================================== Slider  ===================================//
+  
   $("#slider1").responsiveSlides({
-    speed: 900,
+    speed: speed,
     pause:true
   });
   
   $("#slider2").responsiveSlides({
-    speed: 1000
+    speed: speed
   });
   
   $(".news_slider").responsiveSlides({
-    speed: 1000
+    speed: speed
   });
   
   $(".blog_slider").responsiveSlides({
-    speed: 800
+    speed: speed
   });
   
   //=================================== Totop  ===================================//
   $().UItoTop({
-    scrollSpeed:500,
+    scrollSpeed:speed,
     easingType:'linear'
   });
   //=================================== Slider  ===================================//
   $("#carrousel_topic").owlCarousel({
-    autoPlay: 3000, //Set AutoPlay to 3 seconds
+    autoPlay: speed, //Set AutoPlay to 3 seconds
     pagination: false,
     navigation: true,
     items : 3,
@@ -51,7 +54,7 @@ jQuery(document).ready(function($){
   });
   //=================================== Slider  ===================================//
   $(".slides").owlCarousel({
-    autoPlay: 5000, //Set AutoPlay to 3 seconds
+    autoPlay: speed, //Set AutoPlay to 3 seconds
     items : 5,
     itemsDesktop : [1199,3],
     itemsDesktopSmall : [979,3],
@@ -59,7 +62,7 @@ jQuery(document).ready(function($){
   });
   //=================================== Slider  ===================================//
   $(".gallery_blog").owlCarousel({
-    autoPlay: 5000, //Set AutoPlay to 3 seconds
+    autoPlay: speed, //Set AutoPlay to 3 seconds
     items : 1,
     itemsDesktop : [1199,1],
     itemsDesktopSmall : [979,1],
@@ -68,7 +71,7 @@ jQuery(document).ready(function($){
   });
   //=================================== Slider  ===================================//
   $("#news_carrousel").owlCarousel({
-    autoPlay: 7000, //Set AutoPlay to 3 seconds
+    autoPlay: speed, //Set AutoPlay to 3 seconds
     items : 3,
     pagination: false,
     navigation: true,
@@ -79,7 +82,7 @@ jQuery(document).ready(function($){
   });
   //=================================== Slider  ===================================//
   $("#news_carrousel_blog").owlCarousel({
-    utoPlay: 7000, //Set AutoPlay to 3 seconds
+    utoPlay: speed, //Set AutoPlay to 3 seconds
     items : 2,
     pagination: false,
     navigation: true,

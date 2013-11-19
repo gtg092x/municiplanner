@@ -12,7 +12,8 @@ exports.index=function(app){
 	
 
 	routes.get("/",function(req, res,next){
-		res.render('index', {  });
+		//res.render('index', {  });
+		res.redirect('/landing');
 	});
 	
 	
